@@ -9,8 +9,9 @@ spec:
     spec:
       containers:
       - name: counter
-        image: centosssss:7
+        image: centos:7
         command:
+         - "exit 1"
          - "bin/bash"
          - "-c"
          - "for i in 9 8 7 6 5 4 3 2 1 ; do echo $i ; done"
