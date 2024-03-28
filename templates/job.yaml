@@ -4,6 +4,7 @@ metadata:
   name: countdown
 spec:
   template:
+  backoffLimit: 1
     metadata:
       name: countdown
     spec:
