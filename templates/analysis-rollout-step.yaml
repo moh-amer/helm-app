@@ -34,5 +34,6 @@ spec:
       # abort, and set the canary weight to zero.
       - analysis:
           templates:
+          - templateName: random-fail
           - templateName: always-pass
             clusterScope: true
