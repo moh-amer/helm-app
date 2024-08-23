@@ -1,6 +1,7 @@
 apiVersion: v2
 name: nginx-app
 description: A Helm chart for Kubernetes
+#update from go code
 
 # A chart can be either an 'application' or a 'library' chart.
 #
